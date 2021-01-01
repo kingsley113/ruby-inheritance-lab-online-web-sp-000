@@ -5,16 +5,16 @@ require_relative "../lib/teacher.rb"
 require_relative "../lib/student.rb"
 
 steve = Student.new
-steve.first_name = "Steve"
+steve.first_name = "Pfteven"
 steve.last_name = "Jobs"
 
 avi = Teacher.new
-avi.first_name = "Avi"
+avi.first_name = "Cameron"
 avi.last_name = "Flombaum"
 
 
-some_knowledge = avi.teach 
+some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "#{Student.first_name} just learned this important knowledge: '#{steve.knowledge.first}' from #{Teacher.first_name}"

@@ -7,3 +7,8 @@ class User
   end
 
 end
+
+
+jim = User.new("Jim", "Beam")
+
+jim.learn
